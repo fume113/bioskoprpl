@@ -1,0 +1,149 @@
+/* Cotiket */
+section{
+    background: linear-gradient(to right, #7D9D9C, #576F72 )!important;
+}
+
+.card-body{
+    background: #2C3333 !important;
+    color: #59CE8F !important;
+    border: 2px solid #2C3333 !important;
+    outline: none !important;
+}
+
+.form-outline{
+    width: 100% !important;
+}
+
+.form-outline input[type="text"]{
+    background: #CCD6A6 !important;
+    border: 2px solid #CCD6A6 !important;
+    outline: none !important;
+    text-shadow: none !important;
+}
+
+.form-outline input[type="text"]:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-outline .form-label{
+    margin-top: 7px !important;
+}
+
+.row .form-schedule{
+    margin-top: 15px !important;
+}
+
+.option-select .select{
+    background: #CCD6A6 !important;
+}
+
+.option-select .select option{
+    background: #CCD6A6 !important;
+}
+
+.option-select .select option:hover{
+    color: #F5F0BB !important;
+    background: #F5F0BB !important;
+}
+
+.select-label{
+    margin-top: 7px !important;
+}
+
+.form-outline input[type="tel"]{
+    background: #CCD6A6 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: 2px solid #CCD6A6 !important;
+}
+
+.btn-sbmt{
+    text-align: center !important;
+}
+
+.btn{
+    background: #5F7161 !important;
+    border: 2px solid #5F7161 !important;
+    text-align: center !important;
+    align-items: center !important;
+    margin-top: 25px !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background: none !important;
+    transform: scale(1.08) !important;
+}
+
+.card-registration{
+    outline: none !important;
+    border: none !important;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+top: 13px;
+}
+
+/* Co Makanan */
+.form-outline-mkn{
+    width: 100% !important;
+}
+
+.form-outline-mkn input[type="text"]{
+    background: #CCD6A6 !important;
+    border: 2px solid #CCD6A6 !important;
+    outline: none !important;
+    text-shadow: none !important;
+}
+
+.form-outline-mkn .form-label{
+    margin-top: 7px !important;
+}
+
+.form-outline-mkn input[type="tel"]{
+    background: #CCD6A6 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: 2px solid #CCD6A6 !important;
+    margin-top: 17px !important;
+}
+
+.btn-mkn{
+    text-align: center !important;
+}
+
+/* Co Minuman */
+.form-outline-mnm{
+    width: 100% !important;
+}
+
+.form-outline-mnm input[type="text"]{
+    background: #CCD6A6 !important;
+    border: 2px solid #CCD6A6 !important;
+    outline: none !important;
+    text-shadow: none !important;
+}
+
+.form-outline-mnm .form-label{
+    margin-top: 7px !important;
+}
+
+.form-outline-mnm input[type="tel"]{
+    background: #CCD6A6 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: 2px solid #CCD6A6 !important;
+    margin-top: 13px !important;
+}
+
+.btn-mnm{
+    text-align: center !important;
+}

@@ -1,0 +1,237 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+nav {
+    background: -webkit-linear-gradient(to right, #082A3A, #1f6cab);
+    background: linear-gradient(to right, #082A3A, #1f6cab);
+    padding: 2px 4px;
+}
+
+.container {
+    padding: 2px 4px;
+}
+
+.container .navbar-collapse {
+    padding-left: 670px;
+    padding-right: auto;
+}
+
+.d-flex .btn {
+    color: white;
+    text-decoration: none;
+    background: #20948B;
+}
+
+.d-flex .btn:hover {
+    background: #34675c;
+    color: ivory;
+    transition: 0.3s ease;
+    opacity: 1;
+}
+
+.d {
+    padding-top: 15px;
+    font-size: 18px;
+    color: #212529;
+}
+
+ul {
+    font-size: 18px;
+}
+
+#form-search {
+    width: 235px;
+    border-radius: 30px;
+    background: #C2DED1 !important;
+    color: #082A3A !important;
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+}
+
+#form-search:focus{
+    border: none;
+    color: none;
+    outline: none;
+}
+
+::placeholder {
+    color: #000 !important;
+    opacity: 1; /* Firefox */
+}
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000 !important;
+}
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000 !important;
+}
+
+.src-icon {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.icon-cmr {
+    border-radius: 50%;
+    width: 45px;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 15px;
+    background: #040810f0;
+    column-gap: 15px;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    background: #212529;
+    transform: translateX(-18px);
+}
+
+.dropdown-menu .dropdown-item {
+    background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color:#20948B  !important;
+}
+
+.bi-person-circle {
+    font-size: 25px;
+}
+
+.btn-film {
+    cursor: pointer;
+}
+
+.dropdown-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.dropdown-toggle:hover {
+    color: #6CC4A1 !important;
+}
+
+.prf {
+    text-decoration: none !important;
+}
+
+.card-img-top {
+    height: 350px !important;
+    box-shadow: rgba(0, 0, 0, 0.75) !important;
+    cursor: pointer;
+}
+
+.card-body {
+    background: #DCD7C9;
+    box-shadow: rgba(211, 211, 211, 0.75) !important;
+}
+
+h5 {
+    text-align: center;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: #6CC4A1 !important;
+}
+
+.card .btn-primary {
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid grey;
+    padding: 8px 10px;
+    transition: 0.3s ease-in-out all;
+    width: 100%;
+    outline: none ;
+    border: none ;
+    border-color: none;
+    box-shadow: none;
+}
+
+.card .btn-primary:hover,
+.card .btn-beli-makanan:hover {
+    transition: 0.3s ease-in-out all;
+    background: #CC9C75 !important;
+    outline: none;
+    border: none;
+    border-color: none;
+    box-shadow: none;
+}
+
+.btn-beli-makanan,
+.btn-beli-minuman {
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8) !important;
+    border: 1px solid grey;
+    padding: 8px 10px;
+    transition: 0.5s ease-in-out all;
+    width: 100%;
+    outline: none ;
+    border: none ;
+    border-color: none;
+    box-shadow: none;
+}
+
+.btn-beli-makanan:hover,
+.btn-beli-minuman:hover {
+    transition: 0.3s ease-in-out all;
+    background: #CC9C75 !important;
+    outline: none ;
+    border: none ;
+    border-color: none;
+    box-shadow: none;
+}
+
+.img-makanan{
+    height: 250px !important;
+}
+
+.img-minuman {
+    height: 270px !important;
+}
+
+.card-title {
+    text-align: start;
+}
+
+.card-title-makanan {
+    height: 50px;
+    width: 200px;
+}
+
+.card-title-minuman {
+    height: 65px;
+}
+
+.search-error {
+    transform: translateX(-50%);
+}
+
+.show {
+    display: block !important;
+}
